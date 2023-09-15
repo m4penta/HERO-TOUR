@@ -2,7 +2,7 @@
 Tour of Heroes application and tutorial
 Heroes of Tour là một ứng dụng minh họa trong tài liệu chính thức của Angular (https://angular.io/tutorial),
 dùng để hướng dẫn và giải thích các khái niệm và tính năng cơ bản của Angular. Đây là một ứng dụng quản lý danh sách các siêu anh hùng (heroes). 
-Heroes of Tour cho phép người học thực hành và nắm vững kiến thức về Angular thông qua việc xây dựng và mở rộng ứng dụng này.
+Heroes of Tour cho phép người học thực hành và nắm Vững kiến thức về Angular thông qua việc xây dựng và mở rộng ứng dụng này.
 
 Dưới đây là một số khái niệm và tính năng chính của ứng dụng Heroes of Tour:
 
