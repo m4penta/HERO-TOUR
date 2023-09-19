@@ -1,26 +1,8 @@
-<!-- <h2 >My Heroes</h2>
-<div class="card-group" *ngFor="let hero of heroes">
-  <div class="card mt-2" style="width: 18rem;">
-    <div class="card-body">
-    <h5 class="card-title">{{hero.name}}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">ID: {{hero.id}}</h6>
-    </div>
-  </div>
-</div> -->
 <h2>My Heroes</h2>
-<ul class="heroes" >
+<ul class="heroes">
   <li *ngFor="let hero of heroes">
-
-    <!-- bắt sự kiện click -->
-    <!--  thiết lập class selected cho nút nếu siêu anh
-       hùng tương ứng với nút này là selectedHero -->
-
-    <button [class.selected]="hero === selectedHero"
-    type="button" (click)="onSelect(hero)">
-      <span class="badge">{{hero.id}}</span>
-      <span class="name">{{hero.name}}</span>
-    </button>
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </a>
   </li>
 </ul>
-<!-- neu su kien kich hoat thi se hien thi phan nay -->
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>
